@@ -1,0 +1,12 @@
+server:
+  port: 8085
+  
+
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/faixa_cep_db
+  jpa:
+    hibernate:
+      ddl-auto: update
